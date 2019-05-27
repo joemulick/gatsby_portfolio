@@ -25,16 +25,15 @@ const BlogPage = () => {
 
     return (
         <Layout>
-
             <ol>
-                <li>
-                    <h2>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h2>
-                    <p>{data.allMarkdownRemark.edges[0].node.frontmatter.date}</p>
-                </li>
-                <li>
-                    <h2>{data.allMarkdownRemark.edges[1].node.frontmatter.title}</h2>
-                    <p>{data.allMarkdownRemark.edges[1].node.frontmatter.date}</p>
-                </li>
+                {data.allMarkdownRemark.edges.map((edge) => {
+                    return (
+                      <li key={edge.node.frontmatter.title}>
+                        <h2>{edge.node.frontmatter.title}</h2>
+                        <p>{edge.node.frontmatter.date}</p>
+                      </li>
+                    )
+                })}
             </ol>
         </Layout>
     )
