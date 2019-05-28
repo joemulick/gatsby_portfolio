@@ -49,8 +49,6 @@ exports.onCreateNode = ({ node, actions }) => {
                 }
             })
         })
-        //1. Get path to template
-        //2. Get md data
-        //3. Create new pages
+
 
   }
