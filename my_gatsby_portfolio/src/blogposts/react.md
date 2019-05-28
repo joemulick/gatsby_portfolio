@@ -3,7 +3,7 @@ title: "Blog #2 (react)"
 date: "2019-05-15"
 ---
 
-Testing Blog 2 (react)
+Testing Blog (react)
 
 1. Test1react
 2. Test2react
