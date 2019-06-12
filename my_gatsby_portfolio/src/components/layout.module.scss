@@ -12,3 +12,10 @@
 // .content {
 //     flex-grow: 1;
 // }
+.content {
+    min-height: calc(100vh - 75px);
+}
+
+.footer {
+    height: 50px;
+}
