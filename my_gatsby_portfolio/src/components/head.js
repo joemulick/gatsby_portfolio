@@ -16,7 +16,7 @@ const Head = ({title}) => {
     `)
 
     return (
-        <Helmet title={`${title} | ${data.site.siteMetadata.title}`} />
+        <Helmet bodyAttributes={{style: 'background-color : #fff6dd'}} title={`${title} | ${data.site.siteMetadata.title}`} />
     )
 }
 

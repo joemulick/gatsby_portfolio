@@ -11,7 +11,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Layout = (props) => {
     return(
-        <Container fluid>
+        <Container classNamee={layoutStyles.mainContainerBody} fluid>
             <Row>
                 <Col lg={{ span: 10, offset: 1 }}>
                     <div className={layoutStyles.content}>
