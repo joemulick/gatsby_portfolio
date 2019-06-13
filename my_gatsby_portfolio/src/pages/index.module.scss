@@ -2,7 +2,6 @@
     min-height: 1000px;
 }
 
-
 .secTwo {
     min-height: 1000px;
 }
@@ -10,3 +9,28 @@
 .secThree {
     min-height: 1000px;
 }
+
+.section_1 {
+    width: 80%;
+    margin: 5vh auto 1vh;
+}
+
+.indexTitleContainer {
+    width: 100%;
+    margin: 5vh 0;
+    text-align: center;
+}
+
+.indexTitle {
+    width: 90%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 0 auto; 
+    // margin: 10px 0 20px;
+  }
+
+.indexTitle span {
+    background:#fff6dd; 
+    padding:0 10px; 
+  }
