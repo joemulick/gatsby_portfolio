@@ -32,6 +32,8 @@ const IndexPage = () => {
                     <div className={indexStyles.indexTitleContainer}>
                         <h2 className={indexStyles.indexTitle}><span>About Me</span></h2>
                     </div>
+                    <p className={indexStyles.aboutMeText}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
 
                     <br/>
 
@@ -39,7 +41,13 @@ const IndexPage = () => {
                         <h2 className={indexStyles.indexTitle}><span>My Skillset</span></h2>
                     </div>
 
-                    <MySkillSetSVG />
+                    <div className={indexStyles.mySkillSetSVGContainer}>
+                        <MySkillSetSVG />
+                    </div>
+
+                    <div className={indexStyles.indexTitleContainer}>
+                        <h2 className={indexStyles.indexTitle}><span>My Projects</span></h2>
+                    </div>
 
                     <Link to="/contact"><Button>Contact Me</Button></Link>
                 </p>
