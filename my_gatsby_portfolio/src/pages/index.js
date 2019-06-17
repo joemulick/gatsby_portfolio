@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Head from '../components/head'
 
 import MySkillSetSVG from '../components/mySkillSetSVG'
+import MyProjectsCard1 from '../components/MyProjectsCart1'
 
 import indexStyles from './index.module.scss'
 // import ScrollingColorBackground from "react-scrolling-color-background"
@@ -47,6 +48,10 @@ const IndexPage = () => {
 
                     <div className={indexStyles.indexTitleContainer}>
                         <h2 className={indexStyles.indexTitle}><span>My Projects</span></h2>
+                    </div>
+                    
+                    <div className={indexStyles.mySkillSetSVGContainer}>
+                        <MyProjectsCard1 />                 
                     </div>
 
                     <Link to="/contact"><Button>Contact Me</Button></Link>
