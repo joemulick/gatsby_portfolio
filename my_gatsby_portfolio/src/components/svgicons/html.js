@@ -2,7 +2,7 @@ import React from "react"
 
 const Html = function Html(props) {
     return (
-      <svg className="dev-icon" width="150" height="150" viewBox="0 0 128 128" aria-labelledby="html-5">
+      <svg className="dev-icon" width="auto" height="auto" viewBox="0 0 128 128" aria-labelledby="html-5">
           <path fill="#E44D26" d="M27.854 116.354l-8.043-90.211h88.378l-8.051 90.197-36.192 10.033z"></path>
           <path fill="#F16529" d="M64 118.704l29.244-8.108 6.881-77.076h-36.125z"></path>
           <path fill="#EBEBEB" d="M64 66.978h-14.641l-1.01-11.331h15.651v-11.064h-27.743l.264 2.969 2.72 30.489h24.759zM64 95.711l-.049.013-12.321-3.328-.788-8.823h-11.107l1.55 17.372 22.664 6.292.051-.015z"></path>

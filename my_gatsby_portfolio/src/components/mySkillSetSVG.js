@@ -12,6 +12,7 @@ import Express from './svgicons/express.js'
 import Reactsvg from './svgicons/reactsvg.js'
 import Aws from './svgicons/aws.js'
 import { Container, Row, Col } from 'react-bootstrap';
+import mySkillSetSVGStyles from './mySkillSetSVG.module.scss'
 
 const MySkillsetSVG = (props) => {
 
@@ -19,44 +20,44 @@ const MySkillsetSVG = (props) => {
 
     <Container>
         <Row>
-            <Col>
-                <Html />
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
+                    <Html />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Css />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Javascript />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Jquery />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Bootstrap />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Git />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Node />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Mysql />
             </Col>
-        </Row>
-        <Row>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Mongodb />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Express />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Reactsvg />
             </Col>
-            <Col>
+            <Col classNamee={mySkillSetSVGStyles.skillPadding} xs={4} md={3} lg={2}>
                 <Aws />
             </Col>
+        </Row>
+        {/* <Row>
             <Col>
                 <Html />
             </Col>
@@ -66,10 +67,7 @@ const MySkillsetSVG = (props) => {
             <Col>
                 <Html />
             </Col>
-            <Col>
-                <Html />
-            </Col>
-        </Row>            
+        </Row>             */}
     </Container>
     )
 }

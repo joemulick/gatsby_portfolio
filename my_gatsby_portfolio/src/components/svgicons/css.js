@@ -2,7 +2,7 @@ import React from "react"
 
 const Css = function Css(props) {
     return (
-      <svg className="dev-icon" width="150" height="150" viewBox="0 0 128 128" aria-labelledby="css-3">
+      <svg className="dev-icon" width="auto" height="auto" viewBox="0 0 128 128" aria-labelledby="css-3">
           <path fill="#131313" d="M89.234 5.856h-7.384l7.679 8.333v3.967h-15.816v-4.645h7.678l-7.678-8.333v-3.971h15.521v4.649zm-18.657 0h-7.384l7.679 8.333v3.967h-15.817v-4.645h7.679l-7.679-8.333v-3.971h15.522v4.649zm-18.474.19h-7.968v7.271h7.968v4.839h-13.632v-16.949h13.632v4.839z"></path>
           <path fill="#1572B6" d="M27.613 116.706l-8.097-90.813h88.967l-8.104 90.798-36.434 10.102-36.332-10.087z"></path>
           <path fill="#33A9DC" d="M64.001 119.072l29.439-8.162 6.926-77.591h-36.365v85.753z"></path>
