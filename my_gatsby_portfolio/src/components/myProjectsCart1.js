@@ -4,12 +4,19 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const MyProjectsCart1 = (props) => {
 
+    // imageURLs:
+    // https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png
+    // https://res.cloudinary.com/ddsihrmda/image/upload/v1510035230/SaintPaschalDevelopment_q2ng40.png
+    // https://res.cloudinary.com/ddsihrmda/image/upload/v1510293169/TrollPatrul_lpnv0f.png
+    // https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/Politihub_gu1dvi.png
+    // https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/ReelFilms_rwgj6z.png
+
     return (
 
     <Container>
         <Row>
-            <Col xs={6} md={6} lg={4}>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={12} md={12} lg={6}>
+                <Card style={{ minWidth: '18rem', margin: 'auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -21,8 +28,8 @@ const MyProjectsCart1 = (props) => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={6} md={6} lg={4}>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={12} md={12} lg={6}>
+                <Card style={{ minWidth: '18rem', margin: 'auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -34,8 +41,8 @@ const MyProjectsCart1 = (props) => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={6} md={6} lg={4}>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={12} md={12} lg={6}>
+                <Card style={{ minWidth: '18rem', margin: 'auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -47,8 +54,8 @@ const MyProjectsCart1 = (props) => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={6} md={6} lg={4}>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={12} md={12} lg={6}>
+                <Card style={{ minWidth: '18rem', margin: 'auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -60,8 +67,8 @@ const MyProjectsCart1 = (props) => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={6} md={6} lg={4}>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={12} md={12} lg={6}>
+                <Card style={{ minWidth: '18rem', margin: 'auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -73,8 +80,8 @@ const MyProjectsCart1 = (props) => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={6} md={6} lg={4}>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={12} md={12} lg={6}>
+                <Card style={{ minWidth: '18rem', margin: 'auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -86,8 +93,8 @@ const MyProjectsCart1 = (props) => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={6} md={6} lg={4}>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={12} md={12} lg={6}>
+                <Card style={{ minWidth: '18rem', margin: 'auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -99,8 +106,8 @@ const MyProjectsCart1 = (props) => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col xs={6} md={6} lg={4}>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={12} md={12} lg={6}>
+                <Card style={{ minWidth: '18rem', margin: 'auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
