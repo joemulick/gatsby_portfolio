@@ -13,7 +13,7 @@ const Layout = (props) => {
     return(
         <Container classNamee={layoutStyles.mainContainerBody} fluid>
             <Row>
-                <Col xl={{ span: 8, offset: 2 }}>
+                <Col xl={{ span: 10, offset: 1 }}>
                     <div className={layoutStyles.content}>
                     <Header />
                     {props.children}
