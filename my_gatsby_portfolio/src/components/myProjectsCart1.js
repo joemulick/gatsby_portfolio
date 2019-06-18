@@ -16,7 +16,7 @@ const MyProjectsCart1 = (props) => {
     <Container>
         <Row>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '18rem', margin: '20px auto' }}>
+                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
                     <Card.Body>
                         <Card.Title>Current Portfolio Site</Card.Title>
@@ -29,7 +29,7 @@ const MyProjectsCart1 = (props) => {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '18rem', margin: '20px auto' }}>
+                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
                     <Card.Body>
                         <Card.Title>Old Portfolio Site</Card.Title>
@@ -42,7 +42,7 @@ const MyProjectsCart1 = (props) => {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '18rem', margin: '20px auto' }}>
+                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035230/SaintPaschalDevelopment_q2ng40.png" />
                     <Card.Body>
                         <Card.Title>Saint Paschal Baylon</Card.Title>
@@ -55,7 +55,7 @@ const MyProjectsCart1 = (props) => {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '18rem', margin: '20px auto' }}>
+                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293169/TrollPatrul_lpnv0f.png" />
                     <Card.Body>
                         <Card.Title>Troll Patrul</Card.Title>
@@ -68,7 +68,7 @@ const MyProjectsCart1 = (props) => {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '18rem', margin: '20px auto' }}>
+                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/Politihub_gu1dvi.png" />
                     <Card.Body>
                         <Card.Title>Politihub</Card.Title>
@@ -81,7 +81,7 @@ const MyProjectsCart1 = (props) => {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '18rem', margin: '20px auto' }}>
+                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/ReelFilms_rwgj6z.png" />
                     <Card.Body>
                         <Card.Title>Reel Films</Card.Title>
@@ -94,7 +94,7 @@ const MyProjectsCart1 = (props) => {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '18rem', margin: '20px auto' }}>
+                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -107,7 +107,7 @@ const MyProjectsCart1 = (props) => {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '18rem', margin: '20px auto' }}>
+                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
