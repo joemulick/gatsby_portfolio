@@ -1,15 +1,14 @@
 import React from "react"
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
 
 import MySkillSetSVG from '../components/mySkillSetSVG'
-import MyProjectsCard1 from '../components/MyProjectsCart1'
+import MyProjectsCard1 from '../components/myProjectsCart1'
+import ReachMe from '../components/reachMe'
 
 import indexStyles from './index.module.scss'
-// import ScrollingColorBackground from "react-scrolling-color-background"
-import { Button } from 'react-bootstrap';
+
 
 const IndexPage = () => {
 
@@ -54,7 +53,14 @@ const IndexPage = () => {
                         <MyProjectsCard1 />                 
                     </div>
 
-                    <Link to="/contact"><Button>Contact Me</Button></Link>
+                    <div className={indexStyles.indexTitleContainer}>
+                        <h2 className={indexStyles.indexTitle}><span>Reach Me</span></h2>
+                    </div>
+
+                    <div>
+                        <ReachMe />
+                    </div>
+
                 </p>
              </div>
         </Layout>
