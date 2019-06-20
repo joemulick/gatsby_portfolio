@@ -5,6 +5,8 @@ import { useStaticQuery,graphql } from 'gatsby'
 
 const Head = ({title}) => {
 
+    // style={{ minWidth: '16rem', margin: '20px auto' }}
+
     const data = useStaticQuery(graphql`
         query {
             site {
@@ -16,7 +18,7 @@ const Head = ({title}) => {
     `)
 
     return (
-        <Helmet bodyAttributes={{style: 'background-color : #fff6dd'}} title={`${title} | ${data.site.siteMetadata.title}`} />
+        <Helmet bodyAttributes={{style: 'background-color : #fff6dd; font-family : "Source Sans Pro", sans-serif;'}} title={`${title} | ${data.site.siteMetadata.title}`} />
     )
 }
 

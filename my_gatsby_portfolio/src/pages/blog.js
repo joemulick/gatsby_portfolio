@@ -56,7 +56,7 @@ const BlogPage = () => {
                                 return (
                                     <ListGroup.Item>
                                         <Link to={`/blog/${edge.node.slug}`}>
-                                            <p>{edge.node.BlogList} | {edge.node.title}  </p>
+                                            <p className={blogStyles.listTextStyle}>{edge.node.BlogList} | {edge.node.title}  </p>
                                         </Link>
                                     </ListGroup.Item>
                                 )
