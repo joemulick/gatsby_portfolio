@@ -9,26 +9,7 @@ import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 import blogStyles from './blog.module.scss'
 
 const BlogPage = () => {
-        // query {
-        //     mainBlogArea: allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
-        //         edges {
-        //             node {
-        //                 title
-        //                 slug
-        //                 publishedDate(formatString:"MMMM Do, YYYY")
-        //             }
-        //         }
-        //     }
-        //     blogList: allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
-        //         edges {
-        //             node {
-        //                 title
-        //                 slug
-        //                 publishedDate(formatString:"M-D-YYYY")
-        //             }
-        //         }
-        //     }
-        // }
+
     const data = useStaticQuery(graphql`
         query {
             allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
