@@ -4,12 +4,14 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
 
+import { Container, Row, Col, ListGroup } from 'react-bootstrap';
+
 import blogStyles from './blog.module.scss'
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
         query {
-            allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
+            mainBlogArea: allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
                 edges {
                     node {
                         title
@@ -18,28 +20,58 @@ const BlogPage = () => {
                     }
                 }
             }
+            sideArea: allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
+                edges {
+                    node {
+                        title
+                        slug
+                        publishedDate(formatString:"M-D-YYYY")
+                    }
+                }
+            }
         }
     `)
+
 
     return (
         <Layout>
             <Head title="Blog"/>
             <div className={blogStyles.section_1}>
-                <h1>Blog</h1>
+            <Container>
+                <Row>
+                    <Col sm={8}>
 
-                <ol className={blogStyles.posts}>
-                    {data.allContentfulBlogPost.edges.map((edge) => {
-                        return (
-                            <li className={blogStyles.post}>
-                                <Link to={`/blog/${edge.node.slug}`}>
-                                    <h2>{edge.node.title}</h2>
-                                    <p>{edge.node.publishedDate}</p>
-                                </Link>
-                            </li>
-                        )
-                    })}
-                </ol>
+                    <h1>Blog</h1>
 
+                    <ol className={blogStyles.posts}>
+                        {data.mainBlogArea.edges.map((edge) => {
+                            return (
+                                <li className={blogStyles.post}>
+                                    <Link to={`/blog/${edge.node.slug}`}>
+                                        <h2>{edge.node.title}</h2>
+                                        <p>{edge.node.publishedDate}</p>
+                                    </Link>
+                                </li>
+                            )
+                        })}
+                    </ol>
+                    </Col>
+
+                    <Col sm={4}>
+                        <ListGroup>
+                            {data.sideArea.edges.map((edge) => {
+                                return (
+                                    <ListGroup.Item>
+                                        <Link to={`/blog/${edge.node.slug}`}>
+                                            <p>{edge.node.title} - {edge.node.publishedDate}</p>
+                                        </Link>
+                                    </ListGroup.Item>
+                                )
+                            })}
+                        </ListGroup>
+                    </Col>
+                </Row>
+            </Container>
             </div>
         </Layout>
     )
