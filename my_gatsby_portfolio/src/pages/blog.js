@@ -9,23 +9,35 @@ import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 import blogStyles from './blog.module.scss'
 
 const BlogPage = () => {
+        // query {
+        //     mainBlogArea: allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
+        //         edges {
+        //             node {
+        //                 title
+        //                 slug
+        //                 publishedDate(formatString:"MMMM Do, YYYY")
+        //             }
+        //         }
+        //     }
+        //     blogList: allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
+        //         edges {
+        //             node {
+        //                 title
+        //                 slug
+        //                 publishedDate(formatString:"M-D-YYYY")
+        //             }
+        //         }
+        //     }
+        // }
     const data = useStaticQuery(graphql`
         query {
-            mainBlogArea: allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
+            allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
                 edges {
                     node {
                         title
                         slug
-                        publishedDate(formatString:"MMMM Do, YYYY")
-                    }
-                }
-            }
-            sideArea: allContentfulBlogPost ( sort: { fields: publishedDate, order: DESC } ) {
-                edges {
-                    node {
-                        title
-                        slug
-                        publishedDate(formatString:"M-D-YYYY")
+                        BlogMain: publishedDate(formatString:"MMMM Do, YYYY")
+                        BlogList: publishedDate(formatString:"M-D-YYYY")
                     }
                 }
             }
@@ -44,12 +56,12 @@ const BlogPage = () => {
                     <h1>Blog</h1>
 
                     <ol className={blogStyles.posts}>
-                        {data.mainBlogArea.edges.map((edge) => {
+                        {data.allContentfulBlogPost.edges.map((edge) => {
                             return (
                                 <li className={blogStyles.post}>
                                     <Link to={`/blog/${edge.node.slug}`}>
                                         <h2>{edge.node.title}</h2>
-                                        <p>{edge.node.publishedDate}</p>
+                                        <p>{edge.node.BlogMain}</p>
                                     </Link>
                                 </li>
                             )
@@ -59,11 +71,11 @@ const BlogPage = () => {
 
                     <Col sm={4}>
                         <ListGroup>
-                            {data.sideArea.edges.map((edge) => {
+                            {data.allContentfulBlogPost.edges.map((edge) => {
                                 return (
                                     <ListGroup.Item>
                                         <Link to={`/blog/${edge.node.slug}`}>
-                                            <p>{edge.node.title} - {edge.node.publishedDate}</p>
+                                            <p>{edge.node.BlogList} | {edge.node.title}  </p>
                                         </Link>
                                     </ListGroup.Item>
                                 )
