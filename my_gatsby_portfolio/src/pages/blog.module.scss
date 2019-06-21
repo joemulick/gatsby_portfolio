@@ -35,6 +35,30 @@
 }
 
 .listTextStyle{
-    font-size: 1em;
+    font-size: 0.9em;
+    color: #383838 !important;
+    margin: 0;
+}
+
+.listContainer{
+    margin-top: 7.2vh;
+}
+
+.blogURLstyle {
+    text-decoration: none !important;
+}
+
+.blogURLstyle {
+    text-decoration: none !important;
+}
+
+.listGroupStyle {
+    background-color: #f4f4f4;
+    padding: 8px 14px;
+}
+
+.listGroupStyle:hover {
+    color: #6d6d6d !important;
+    background-color: #e4e4e4;
 }
 

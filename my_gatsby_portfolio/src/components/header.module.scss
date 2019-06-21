@@ -1,12 +1,16 @@
 .nav-item {
-    margin: 0 20px;
+    padding: 0 10px;
+    color: #383838 !important;
+    font-size: 1.35em;
 }
 
 .nav-item:hover {
-    color: #2c1616;
+    color: #6d6d6d !important;
     text-decoration: none;  
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #00d8ff !important;
 }
+
+

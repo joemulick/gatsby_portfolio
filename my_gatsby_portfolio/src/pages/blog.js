@@ -51,14 +51,17 @@ const BlogPage = () => {
                     </Col>
 
                     <Col sm={4}>
-                        <ListGroup>
+                        <ListGroup className={blogStyles.listContainer}>
                             {data.allContentfulBlogPost.edges.map((edge) => {
                                 return (
-                                    <ListGroup.Item>
-                                        <Link to={`/blog/${edge.node.slug}`}>
-                                            <p className={blogStyles.listTextStyle}>{edge.node.BlogList} |-| {edge.node.title}  </p>
-                                        </Link>
-                                    </ListGroup.Item>
+                                    <Link className={blogStyles.blogURLstyle} to={`/blog/${edge.node.slug}`}>
+                                        <ListGroup.Item className={blogStyles.listGroupStyle}>
+                                                <p className={blogStyles.listTextStyle}>
+                                                    {edge.node.title}<br />
+                                                    <div style={{textAlign:'right'}}>{edge.node.BlogList}</div>
+                                                </p>   
+                                        </ListGroup.Item>
+                                    </Link>
                                 )
                             })}
                         </ListGroup>
