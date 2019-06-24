@@ -65,8 +65,8 @@ const MyProjectsCart1 = (props) => {
                 </Card>
             </Col>
             <Col xs={12} md={12} lg={6}>
-                <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
-                    <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
+                <Card style={{ minWidth: '16rem', margin: '20px auto'}}>
+                        <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510724797/Cropped_brpac6.png" />
                     <Card.Body>
                         <Card.Title>Old Portfolio Site</Card.Title>
                         <Card.Text>
@@ -112,7 +112,7 @@ const MyProjectsCart1 = (props) => {
             </Col>
             <Col xs={12} md={12} lg={6}>
                 <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
-                    <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035230/SaintPaschalDevelopment_q2ng40.png" />
+                    <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1561352398/verification-tool-resize-gimp_tyyz8f.png" />
                     <Card.Body>
                         <Card.Title>Verification Tool</Card.Title>
                         <Card.Text>
