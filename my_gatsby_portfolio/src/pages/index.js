@@ -25,14 +25,13 @@ const IndexPage = () => {
                     My name is Joe Mulick
                 </h2>
                 <p style={{marginBottom: '9vh'}}>
-                    I'm a fullstack Javascript developer originally from Los Angeles<br/>
-                    and currently residing in Chico, CA
+                    Lead technical email devloper by day, react engineer by night  
                 </p>
 
                     <Container style={{paddingBottom: '40px', textAlign: 'center'}}>
                         <Row>
                             <Col xs="12" sm="12" md="12" lg="6">
-                                <img style={{maxWidth:'430px'}} height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035229/mern_n2shda.png" alt="mern-stack" />
+                                <img style={{maxWidth:'430px'}} height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1561327091/mern-stack-transparant_xfauc5.png" alt="mern-stack" />
                             </Col>
                             <Col xs="12" sm="12" md="12" lg="6">
                                 <img style={{maxWidth:'430px'}} height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510361407/LAsmlgreyone_oswasr.png" alt="los-angeles" />
@@ -40,9 +39,11 @@ const IndexPage = () => {
                         </Row>
                     </Container>
                     <div className={indexStyles.indexTitleContainer}>
-                        <h2 className={indexStyles.indexTitle}><span>About Me</span></h2>
+                        <div className={indexStyles.leftSpacer} style={{minWidth:'30%'}}></div><h2 className={indexStyles.indexTitle}>About Me</h2><div style={{minWidth:'30%'}}></div>
                     </div>
-
+                    {/* text-align: center; 
+                    border-bottom: 1px solid #000; 
+                    line-height: 0.1em; */}
                     <p className={indexStyles.aboutMeText}>I am a full stack web developer and entrepreneur originally from Los Angeles, California. I am passionate about web development and enjoy discovering new technologies which I can use to develop websites and useful web applications in my spare time. I am driven and always looking to tackle the next challenge.
                     <br/>
                     <br/>
@@ -53,7 +54,7 @@ const IndexPage = () => {
                     </p>
 
                     <div className={indexStyles.indexTitleContainer}>
-                        <h2 className={indexStyles.indexTitle}><span>My Skillset</span></h2>
+                    <div className={indexStyles.leftSpacer} style={{minWidth:'30%'}}></div><h2 className={indexStyles.indexTitle}>My Skillset</h2><div style={{minWidth:'30%'}}></div>
                     </div>
 
                     <div className={indexStyles.mySkillSetSVGContainer}>
@@ -61,7 +62,7 @@ const IndexPage = () => {
                     </div>
 
                     <div className={indexStyles.indexTitleContainer}>
-                        <h2 className={indexStyles.indexTitle}><span>My Projects</span></h2>
+                    <div className={indexStyles.leftSpacer} style={{minWidth:'30%'}}></div><h2 className={indexStyles.indexTitle}>My Projects</h2><div style={{minWidth:'30%'}}></div>
                     </div>
                     
                     <div className={indexStyles.mySkillSetSVGContainer}>
@@ -69,7 +70,7 @@ const IndexPage = () => {
                     </div>
 
                     <div className={indexStyles.indexTitleContainer}>
-                        <h2 className={indexStyles.indexTitle}><span>Reach Me</span></h2>
+                    <div className={indexStyles.leftSpacer} style={{minWidth:'30%'}}></div><h2 className={indexStyles.indexTitle}>Reach Me</h2><div style={{minWidth:'30%'}}></div>
                     </div>
 
                     <div>
