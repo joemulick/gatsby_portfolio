@@ -70,7 +70,7 @@ const MyProjectsCart1 = (props) => {
                     <Card.Body>
                         <Card.Title>Old Portfolio Site</Card.Title>
                         <Card.Text>
-                            <div>
+                            <div style={{minHeight:'67px'}}>
                                 <div className={myProjectsCart1Styles.techBox}>
                                     <a className={myProjectsCart1Styles.urlSize} href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
                                         NodeJS
@@ -99,7 +99,7 @@ const MyProjectsCart1 = (props) => {
 
                             </div>
                                 <div className={myProjectsCart1Styles.projectDescription}>
-                                    My Old portfolio website was built with the efficient Next.js framework. Next.js is a framework for server rendered or statically exported react applications.
+                                    My Old portfolio website was built with the efficient Next.js framework. Next.js is a framework for server rendered or statically exported react applications. This project was originally hosted on ZEIT's now webservice. The original code source can be viewed in my github via the link below.
                                 </div>
                             <div>
                                 <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick/Joseph-Mulick-Portfolio-Next-JS" target="_blank" rel="noopener noreferrer">
@@ -120,7 +120,7 @@ const MyProjectsCart1 = (props) => {
                                 
                                 <div className={myProjectsCart1Styles.techBox}>
                                     <a className={myProjectsCart1Styles.urlSize} href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
-                                        NodeJS
+                                        Node
                                     </a>
                                 </div>
                                 <div className={myProjectsCart1Styles.techBox}>
@@ -140,22 +140,17 @@ const MyProjectsCart1 = (props) => {
                                 </div>
                                 <div className={myProjectsCart1Styles.techBox}>
                                     <a className={myProjectsCart1Styles.urlSize} href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
-                                        MongoDB
+                                        Mongo DB
                                     </a>
                                 </div>
                                 <div className={myProjectsCart1Styles.techBox}>
                                     <a className={myProjectsCart1Styles.urlSize} href="http://www.passportjs.org/" target="_blank" rel="noopener noreferrer">
-                                        Passport
+                                        Passport.js
                                     </a>
                                 </div>
                                 <div className={myProjectsCart1Styles.techBox}>
                                     <a className={myProjectsCart1Styles.urlSize} href="https://jwt.io/" target="_blank" rel="noopener noreferrer">
-                                        json-web-token
-                                    </a>
-                                </div>
-                                <div className={myProjectsCart1Styles.techBox}>
-                                    <a className={myProjectsCart1Styles.urlSize} href="https://github.com/validatorjs/validator.js" target="_blank" rel="noopener noreferrer">
-                                        validator.js
+                                        JWT
                                     </a>
                                 </div>
                             </div>
@@ -175,24 +170,56 @@ const MyProjectsCart1 = (props) => {
                 <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293169/TrollPatrul_lpnv0f.png" />
                     <Card.Body>
-                        <Card.Title>Current Portfolio Site</Card.Title>
+                        <Card.Title>Troll Patrul Website</Card.Title>
                         <Card.Text>
                             <div>
-                                <div className={myProjectsCart1Styles.techBox}>NodeJS</div>
-                                <div className={myProjectsCart1Styles.techBox}>React</div>
-                                <div className={myProjectsCart1Styles.techBox}>GatsbyJS</div>
-                                <div className={myProjectsCart1Styles.techBox}>GraphQL</div>
-                                <div className={myProjectsCart1Styles.techBox}>Netlify</div>
-                                <div className={myProjectsCart1Styles.techBox}>Bootstrap</div>
-                                <div className={myProjectsCart1Styles.techBox}>Contentful</div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
+                                        Node
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://handlebarsjs.com/" target="_blank" rel="noopener noreferrer">
+                                        Handlebars.js
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+                                        Mongo DB
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer">
+                                        Heroku
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="http://www.passportjs.org/" target="_blank" rel="noopener noreferrer">
+                                        Passport.js
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://www.npmjs.com/package/bcryptjs" target="_blank" rel="noopener noreferrer">
+                                        Bcrypt.js
+                                    </a>
+                                </div>
                             </div>
                             <div className={myProjectsCart1Styles.projectDescription}>
-                                My newest portolfio website is built with GatsbyJS which is a modern site generator that allows you to build blazing fast web apps with React. Utilizing graphQL, i was able to hook this website up to Contentful's blog API which I use to manage my blogs from their web portal.
+                                Troll Patrul is a website dedicated to the Troll Patrul online community. It has a secured user authentication system that uses BCrypt and is a full stack web application that uses Node.js / Express and Handlebars as the viewengine. The web application was built 100% by me and is hosted at Heroku. The web app can be accessed at the link below the link below.
+                                <br/>
+                                <br/>
                             </div>
-                            <div>
-                                <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick" target="_blank" rel="noopener noreferrer">
-                                    View Code On Github
-                                </a>
+                            <div className={myProjectsCart1Styles.buttonContainerContainer}>
+                                <div className={myProjectsCart1Styles.buttonContainer}>
+                                    <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick/TrollPatrol" target="_blank" rel="noopener noreferrer">
+                                        View Code On Github
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.buttonContainer}>
+                                    <a className={myProjectsCart1Styles.projectButton} href="https://thawing-shelf-21665.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                        View Hosted Website
+                                    </a>
+                                </div>
                             </div>
                         </Card.Text>
                     </Card.Body>
@@ -202,22 +229,41 @@ const MyProjectsCart1 = (props) => {
                 <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/Politihub_gu1dvi.png" />
                     <Card.Body>
-                        <Card.Title>Current Portfolio Site</Card.Title>
+                        <Card.Title>Politihub</Card.Title>
                         <Card.Text>
                             <div>
-                                <div className={myProjectsCart1Styles.techBox}>NodeJS</div>
-                                <div className={myProjectsCart1Styles.techBox}>React</div>
-                                <div className={myProjectsCart1Styles.techBox}>GatsbyJS</div>
-                                <div className={myProjectsCart1Styles.techBox}>GraphQL</div>
-                                <div className={myProjectsCart1Styles.techBox}>Netlify</div>
-                                <div className={myProjectsCart1Styles.techBox}>Bootstrap</div>
-                                <div className={myProjectsCart1Styles.techBox}>Contentful</div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
+                                        Node
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+                                        React
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+                                        Express
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+                                        Mongo DB
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                        Custom CSS
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                        Multiple API's
+                                </div>
                             </div>
                             <div className={myProjectsCart1Styles.projectDescription}>
-                                My newest portolfio website is built with GatsbyJS which is a modern site generator that allows you to build blazing fast web apps with React. Utilizing graphQL, i was able to hook this website up to Contentful's blog API which I use to manage my blogs from their web portal.
+                                Politihub is a React web application that allows the user to see all the latest bills that are to be voted on on various levels of government. It allows users to browse between Local, State, House and Senate bills. It also alows the user to filter their selection by a number of unique parameters. This web application pulls from two separate api’s. Directions to set up and run Politihub locally can be found in the github.
                             </div>
                             <div>
-                                <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick" target="_blank" rel="noopener noreferrer">
+                                <a className={myProjectsCart1Styles.projectButton} href="https://github.com/ElmasSayed/PolitiHub" target="_blank" rel="noopener noreferrer">
                                     View Code On Github
                                 </a>
                             </div>
@@ -229,24 +275,46 @@ const MyProjectsCart1 = (props) => {
                 <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
                     <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510293167/ReelFilms_rwgj6z.png" />
                     <Card.Body>
-                        <Card.Title>Current Portfolio Site</Card.Title>
+                        <Card.Title>Reel Films</Card.Title>
                         <Card.Text>
                             <div>
-                                <div className={myProjectsCart1Styles.techBox}>NodeJS</div>
-                                <div className={myProjectsCart1Styles.techBox}>React</div>
-                                <div className={myProjectsCart1Styles.techBox}>GatsbyJS</div>
-                                <div className={myProjectsCart1Styles.techBox}>GraphQL</div>
-                                <div className={myProjectsCart1Styles.techBox}>Netlify</div>
-                                <div className={myProjectsCart1Styles.techBox}>Bootstrap</div>
-                                <div className={myProjectsCart1Styles.techBox}>Contentful</div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    HTML
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    CSS
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    Javasctipt
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://jquery.com/" target="_blank" rel="noopener noreferrer">
+                                        jQuery
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://www.w3schools.com/xml/ajax_xmlhttprequest_send.asp" target="_blank" rel="noopener noreferrer">
+                                        AJAX
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    Multiple API's
+                                </div>
                             </div>
                             <div className={myProjectsCart1Styles.projectDescription}>
-                                My newest portolfio website is built with GatsbyJS which is a modern site generator that allows you to build blazing fast web apps with React. Utilizing graphQL, i was able to hook this website up to Contentful's blog API which I use to manage my blogs from their web portal.
+                                Reel films is a web app that shows movie trailers based on the a users pre-selected criteria. We sort the movie trailers by genre, rating, year released and much more to tailor a custom trailer watching experience to the end user. We utilized 3 separate API’s including Youtube’s API, OMBD and The Movie DB.
                             </div>
-                            <div>
-                                <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick" target="_blank" rel="noopener noreferrer">
-                                    View Code On Github
-                                </a>
+                            <div className={myProjectsCart1Styles.buttonContainerContainer}>
+                                <div className={myProjectsCart1Styles.buttonContainer}>
+                                    <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick/Reel-Films" target="_blank" rel="noopener noreferrer">
+                                        View Code On Github
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.buttonContainer}>
+                                    <a className={myProjectsCart1Styles.projectButton} href="https://joemulick.github.io/Reel-Films/" target="_blank" rel="noopener noreferrer">
+                                        View Hosted Website
+                                    </a>
+                                </div>
                             </div>
                         </Card.Text>
                     </Card.Body>
@@ -254,24 +322,47 @@ const MyProjectsCart1 = (props) => {
             </Col>
             <Col xs={12} md={12} lg={6}>
                 <Card style={{ minWidth: '16rem', margin: '20px auto' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1561358502/Marketing-Mavens-NoEdit_ybxmcl.png" />
                     <Card.Body>
-                        <Card.Title>Current Portfolio Site</Card.Title>
+                        <Card.Title>Marketing Mavens</Card.Title>
                         <Card.Text>
                             <div>
-                                <div className={myProjectsCart1Styles.techBox}>NodeJS</div>
-                                <div className={myProjectsCart1Styles.techBox}>React</div>
-                                <div className={myProjectsCart1Styles.techBox}>GatsbyJS</div>
-                                <div className={myProjectsCart1Styles.techBox}>GraphQL</div>
-                                <div className={myProjectsCart1Styles.techBox}>Netlify</div>
-                                <div className={myProjectsCart1Styles.techBox}>Bootstrap</div>
-                                <div className={myProjectsCart1Styles.techBox}>Contentful</div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
+                                        Node
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+                                        React
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://cssinjs.org/react-jss/?v=v10.0.0-alpha.21" target="_blank" rel="noopener noreferrer">
+                                        React-JSS
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+                                        Next.js
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">
+                                        Firebase
+                                    </a>
+                                </div>
+                                <div className={myProjectsCart1Styles.techBox}>
+                                    <a className={myProjectsCart1Styles.urlSize} href="https://material-ui.com/" target="_blank" rel="noopener noreferrer">
+                                        Material UI
+                                    </a>
+                                </div>
                             </div>
                             <div className={myProjectsCart1Styles.projectDescription}>
-                                My newest portolfio website is built with GatsbyJS which is a modern site generator that allows you to build blazing fast web apps with React. Utilizing graphQL, i was able to hook this website up to Contentful's blog API which I use to manage my blogs from their web portal.
+                                Marketing Mavens is a website currently under construction. This website utilizes Next JS to create a server side rendered react application capable of great search engine optimization. This website uses Material UI for advanced UI templating and mobile responsiveness. Expected completion last quarter 2019.
                             </div>
                             <div>
-                                <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick" target="_blank" rel="noopener noreferrer">
+                                <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick/Marketing-Mavens" target="_blank" rel="noopener noreferrer">
                                     View Code On Github
                                 </a>
                             </div>
