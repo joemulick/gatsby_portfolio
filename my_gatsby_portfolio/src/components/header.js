@@ -12,6 +12,7 @@ const Header = () => {
       site {
         siteMetadata {
           title
+          version
         }
       }
     }
@@ -22,7 +23,7 @@ const Header = () => {
       <Navbar expand="md">
         <Navbar.Brand>
           <Link className={headerStyles.navItem} to="/">
-            {data.site.siteMetadata.title}
+            {data.site.siteMetadata.title} <span style={{fontSize:'0.5em',margin:'0 10px'}}>v {data.site.siteMetadata.version}</span>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,15 +45,6 @@ const Header = () => {
               to="/blog"
             >
               blog
-            </Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-              to="/about"
-            >
-              about
             </Link>
           </Nav.Link>
           <Nav.Link>

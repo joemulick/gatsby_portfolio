@@ -6,8 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Joe Mulick Portolio`,
-    author: `Joe Mulick`
+    title: `Joe Mulick Porfolio`,
+    author: `Joe Mulick`,
+    version: '1.0.0'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
