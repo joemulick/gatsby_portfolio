@@ -70,7 +70,7 @@ const MyProjectsCart1 = (props) => {
                     <Card.Body>
                         <Card.Title>Old Portfolio Site</Card.Title>
                         <Card.Text>
-                            <div style={{minHeight:'67px'}}>
+                            <div className={myProjectsCart1Styles.heightPad}>
                                 <div className={myProjectsCart1Styles.techBox}>
                                     <a className={myProjectsCart1Styles.urlSize} href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
                                         NodeJS

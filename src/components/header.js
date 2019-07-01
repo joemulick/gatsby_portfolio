@@ -23,7 +23,7 @@ const Header = () => {
       <Navbar expand="md">
         <Navbar.Brand>
           <Link className={headerStyles.navItem} to="/">
-            {data.site.siteMetadata.title} <span style={{fontSize:'0.5em',margin:'0 10px'}}>v {data.site.siteMetadata.version}</span>
+            {data.site.siteMetadata.title} <span className={headerStyles.versionText}>v {data.site.siteMetadata.version}</span>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
