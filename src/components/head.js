@@ -19,8 +19,7 @@ const Head = ({title}) => {
 
     return (
         <Helmet
-        className={headStyles.bodyStyle} 
-        bodyAttributes={{style: 'background-color : #ffffff; font-family: "Source Sans Pro", sans-serif; background-image: linear-gradient(rgba(94, 50, 147,0), rgba(94, 50, 147,1));'}} 
+        className={headStyles.bodyStyle}  
         title={`${title} | ${data.site.siteMetadata.title}`} 
         />
     )
