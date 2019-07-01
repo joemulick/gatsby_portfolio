@@ -41,7 +41,7 @@ const Header = () => {
           <Nav.Link>
             <Link
               className={headerStyles.navItem}
-              // activeClassName={headerStyles.activeNavItem}
+              activeClassName={headerStyles.activeNavItem}
               to="/blog"
             >
               blog
