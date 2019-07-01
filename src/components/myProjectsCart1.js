@@ -56,7 +56,7 @@ const MyProjectsCart1 = (props) => {
                                 My newest portolfio website is built with GatsbyJS which is a modern site generator that allows you to build blazing fast web apps with React. This new site contains a blog which utilizes Contentful's API which allows me to manage my blog posts from an online portal. 
                             </div>
                             <div>
-                                <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick" target="_blank" rel="noopener noreferrer">
+                                <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick/gatsby_portfolio" target="_blank" rel="noopener noreferrer">
                                     View Code On Github
                                 </a>
                             </div>
