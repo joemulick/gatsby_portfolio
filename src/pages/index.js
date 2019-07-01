@@ -25,7 +25,7 @@ const IndexPage = () => {
                     My name is Joe Mulick
                 </h2>
                 <p className={indexStyles.mainText}>
-                    Lead technical email devloper by day, react engineer by night  
+                    Lead technical email developer by day, react engineer by night.
                 </p>
 
                     <Container className={indexStyles.indexImageContainer}>
