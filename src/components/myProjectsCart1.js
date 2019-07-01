@@ -155,7 +155,7 @@ const MyProjectsCart1 = (props) => {
                                 </div>
                             </div>
                             <div className={myProjectsCart1Styles.projectDescription}>
-                                My newest portolfio website is built with GatsbyJS which is a modern site generator that allows you to build blazing fast web apps with React. Utilizing graphQL, i was able to hook this website up to Contentful's blog API which I use to manage my blogs from their web portal.
+                                This was a web application I attempted to build for a friend that was essentially a landing page that vendors could use to verify coupon codes from a managed database. My dream was to have a portal for an admin where they could manage the various coupon codes which they distrubuted. Unfortunately I ran into difficulties. I would love to build a project similar to this in the future.
                             </div>
                             <div>
                                 <a className={myProjectsCart1Styles.projectButton} href="https://github.com/joemulick/verification-tool" target="_blank" rel="noopener noreferrer">
