@@ -37,9 +37,9 @@ const Blog = props => {
           <h1 className={blogTemplateStyles.blogTitleStyle}>
             {props.data.contentfulBlogPost.title}
           </h1>
-          <div style={{textAlign:'center'}}>
+          <div className={blogTemplateStyles.blogContentContainer}>
             <div className={blogTemplateStyles.authorImageContainer}>
-              <img style={{maxWidth:'65px',borderRadius:'50%'}} src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/mefiltered_qff7c0.jpg" alt="Joe Mulick" />
+              <img className={blogTemplateStyles.mePhoto} src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510035228/mefiltered_qff7c0.jpg" alt="Joe Mulick" />
             </div>
             <div className={blogTemplateStyles.authorImageContainer}>
               <p className={blogTemplateStyles.blogPostInfoStyle}>

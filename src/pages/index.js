@@ -21,25 +21,25 @@ const IndexPage = () => {
                 <h1>
                     <i>Hello</i> 👋
                 </h1>  
-                <h2 style={{margin: '7vh 0'}}>
+                <h2 className={indexStyles.myName}>
                     My name is Joe Mulick
                 </h2>
-                <p style={{marginBottom: '9vh'}}>
+                <p className={indexStyles.mainText}>
                     Lead technical email devloper by day, react engineer by night  
                 </p>
 
-                    <Container style={{paddingBottom: '40px', textAlign: 'center'}}>
+                    <Container className={indexStyles.indexImageContainer}>
                         <Row>
                             <Col xs="12" sm="12" md="12" lg="6">
-                                <img style={{maxWidth:'430px'}} height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1561327091/mern-stack-transparant_xfauc5.png" alt="mern-stack" />
+                                <img className={indexStyles.indexMainImages2Col} height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1561327091/mern-stack-transparant_xfauc5.png" alt="mern-stack" />
                             </Col>
                             <Col xs="12" sm="12" md="12" lg="6">
-                                <img style={{maxWidth:'430px'}} height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510361407/LAsmlgreyone_oswasr.png" alt="los-angeles" />
+                                <img className={indexStyles.indexMainImages2Col} height="auto" width="100%" src="https://res.cloudinary.com/ddsihrmda/image/upload/v1510361407/LAsmlgreyone_oswasr.png" alt="los-angeles" />
                             </Col>
                         </Row>
                     </Container>
                     <div className={indexStyles.indexTitleContainer}>
-                        <div className={indexStyles.leftSpacer} style={{minWidth:'30%'}}></div><h2 className={indexStyles.indexTitle}>About Me</h2><div style={{minWidth:'30%'}}></div>
+                        <div className={indexStyles.leftSpacer}></div><h2 className={indexStyles.indexTitle}>About Me</h2><div className={indexStyles.leftSpacer}></div>
                     </div>
                     {/* text-align: center; 
                     border-bottom: 1px solid #000; 
@@ -54,7 +54,7 @@ const IndexPage = () => {
                     </p>
 
                     <div className={indexStyles.indexTitleContainer}>
-                    <div className={indexStyles.leftSpacer} style={{minWidth:'30%'}}></div><h2 className={indexStyles.indexTitle}>My Skillset</h2><div style={{minWidth:'30%'}}></div>
+                    <div className={indexStyles.leftSpacer}></div><h2 className={indexStyles.indexTitle}>My Skillset</h2><div className={indexStyles.leftSpacer}></div>
                     </div>
 
                     <div className={indexStyles.mySkillSetSVGContainer}>
@@ -62,7 +62,7 @@ const IndexPage = () => {
                     </div>
 
                     <div className={indexStyles.indexTitleContainer}>
-                    <div className={indexStyles.leftSpacer} style={{minWidth:'30%'}}></div><h2 className={indexStyles.indexTitle}>My Projects</h2><div style={{minWidth:'30%'}}></div>
+                    <div className={indexStyles.leftSpacer}></div><h2 className={indexStyles.indexTitle}>My Projects</h2><div className={indexStyles.leftSpacer}></div>
                     </div>
                     
                     <div className={indexStyles.mySkillSetSVGContainer}>
@@ -70,7 +70,7 @@ const IndexPage = () => {
                     </div>
 
                     <div className={indexStyles.indexTitleContainer}>
-                    <div className={indexStyles.leftSpacer} style={{minWidth:'30%'}}></div><h2 className={indexStyles.indexTitle}>Reach Me</h2><div style={{minWidth:'30%'}}></div>
+                    <div className={indexStyles.leftSpacer}></div><h2 className={indexStyles.indexTitle}>Reach Me</h2><div className={indexStyles.leftSpacer}></div>
                     </div>
 
                     <div>

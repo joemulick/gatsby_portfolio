@@ -58,7 +58,7 @@ const BlogPage = () => {
                                         <ListGroup.Item className={blogStyles.listGroupStyle}>
                                                 <p className={blogStyles.listTextStyle}>
                                                     {edge.node.title}<br />
-                                                    <div style={{textAlign:'right'}}>{edge.node.BlogList}</div>
+                                                    <div className={blogStyles.dateAlign}>{edge.node.BlogList}</div>
                                                 </p>   
                                         </ListGroup.Item>
                                     </Link>
