@@ -50,7 +50,7 @@ const IndexPage = () => {
                     I currently work at build.com as the lead technical email developer. Build.com is an innovative e-commerce company based in Chico, CA. 
                     <br/>
                     <br/>
-                    I attended UCLA extension coding bootcamp which was a tremendous experience where I learned to create and impliment full stack web applications using the most relevent web technologies. See my skill set below, or check out my <a href="https://github.com/joemulick" target="_blank" rel="noopener noreferrer">github.</a>
+                    I attended UCLA extension coding bootcamp which was a tremendous experience where I learned to create and implement full stack web applications using the most relevent web technologies. See my skill set below, or check out my <a href="https://github.com/joemulick" target="_blank" rel="noopener noreferrer">github.</a>
                     </p>
 
                     <div className={indexStyles.indexTitleContainer}>
